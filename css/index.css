@@ -29,6 +29,10 @@ body{
     max-width: 1024px;
 }
 
+.contenedor-2{
+    max-width: 500px;
+}
+
 .margin-center{
     margin-right: auto;
     margin-left: auto;
