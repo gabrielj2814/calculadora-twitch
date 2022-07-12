@@ -25,6 +25,30 @@ body{
     font-family: 'roboto-regular';
 }
 
+.full-screen{
+    width: 100vw;
+    height: 100vh;
+}
+
+.loader{
+    position: fixed;
+    background-color: var(--color-principal);
+    width: 100vw;
+    height: 100vh;
+    z-index: 100;
+    transition: opacity .5s ease-out;
+}
+
+.imagen-loader{
+    width: 300px;
+    height: 200px
+}
+
+.ocultar-loader{
+    opacity: 0;
+    pointer-events: none;
+}
+
 .contenedor{
     max-width: 1024px;
 }

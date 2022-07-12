@@ -1,3 +1,9 @@
+window.onload= () => {
+    let loader=document.querySelector(".loader")
+    loader.classList.add("ocultar-loader")
+}
+
+
 function calcularBits(){
     let valorIva=parseInt(document.getElementById("campoIva").value)
     let porcentajeDelIva=valorIva/100
@@ -41,6 +47,8 @@ function validarCampo(valor){
     }
     return true
 }
+
+
 
 
 
