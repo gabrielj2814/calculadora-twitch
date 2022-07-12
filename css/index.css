@@ -1,0 +1,62 @@
+:root{
+    --color-principal:#0e0e10;
+    --color-twitch-1-principal:#5c16c5;
+    --color-twitch-2-principal:#772ce8;
+    --color-twitch-3-principal:#9147ff;
+    --color-principal-fuente:#FFF;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.ocultar{
+    display: none;
+}
+
+html,body{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: var(--color-principal);
+    color: var(--color-principal-fuente);
+    font-family: 'roboto-regular';
+}
+
+.contenedor{
+    max-width: 1024px;
+}
+
+.margin-center{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.btn-morado-twitch{
+    background-color: var(--color-twitch-3-principal);
+    color: var(--color-principal-fuente);
+}
+
+.btn-morado-twitch:hover{
+    color: var(--color-principal-fuente);
+}
+
+.contenedor-logo-twitch{
+    max-width: 250px;
+    /* height: 100px; */
+}
+
+.imagen-logo-twitch{
+    display: block;
+    max-width: 250px;
+    width: 100%;
+    height: 100%;
+
+}
+
+@font-face {
+    font-family: 'roboto-regular';
+    src: url(../fonts/roboto/Roboto-Regular.ttf);
+}
